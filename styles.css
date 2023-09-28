@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#animal-photos {
+	background-color: rgb(68,68,68);
+	border-radius: 20px;
+/* 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly; */
+}
+
+#one, #two, #three {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly; 
+	margin-bottom: 20px;
+}
+
+img {
+	border-radius: 20px;
+	width: 150px;
+}
